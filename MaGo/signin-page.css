@@ -1,0 +1,88 @@
+html{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+}
+body{
+    background-color: #0D2B29;
+    height: 100vh;
+}
+p{
+    font-family: Roboto;
+}
+body,.signin-div{
+    justify-content: center;
+    align-items:center;
+}
+.title p,.textfield-signin::placeholder,.signin-btn,.footer-signin{
+    color: white;
+}
+body,.title,.signin-div{
+    display:flex;
+}
+.title,.signin-div,.circle2-signin,.footer-signin{
+    position: absolute;
+}
+.signin-btn,.circle2-signin,.footer-signin{
+    background: #94C550;   
+}
+.signin-div,.textfield-signin{
+    background: #335653;
+}
+.title{
+    flex-direction: row;
+    top: 10px;
+    left: 10px;
+}
+.title p{
+    margin-left: 40px;
+    font-size: 30px;
+    font-weight: bold; 
+    z-index: 1;
+}
+.signin-div{
+    border-radius: 20px;
+    flex-direction: column;
+    height: 302px;
+    width: 436px;
+    box-shadow:0px 0px 30px rgb(32, 32, 32);
+    z-index: 1;
+}
+.textfield-signin{
+    margin: 20px 0px 0px 0px;
+    width: 300px;
+    height: 30px;
+    border-color: white;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+.circle2-signin{
+    border-radius: 500px;
+    width: 516px;
+    height: 516px;
+    right: -168px;
+    top: -240px;
+    z-index: 0;
+}
+.signin-btn{
+    margin: 20px 0px 30px 0px;
+    border: 0;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px; 
+    font-weight: bold;
+    font-size: 20px;
+}
+.footer-signin{
+    bottom: 0px;
+    width: 100vw;
+    height: 50px; 
+    text-align: center;
+}
+.tologin{
+    margin-left: 5px;
+    color: black;
+    font-weight: bold;
+}

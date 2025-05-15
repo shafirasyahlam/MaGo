@@ -1,0 +1,117 @@
+html{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+}
+p{
+    margin: 0;
+    font-family: Roboto;
+}
+.circle1-data-admin{
+    position: absolute;
+    border-radius: 500px;
+    width: 460px;
+    height: 460px;
+    right: -78px;
+    top: -130px;
+    background: #0D2B29;
+    z-index: 0;
+}
+.circle2-data-admin{
+    position: absolute;
+    border-radius: 500px;
+    width: 460px;
+    height: 460px;
+    left: -78px;
+    bottom: -130px;
+    background: #94C550;
+    z-index: 0;
+}
+.back{
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+.data-admin-page{
+    background: white;
+    padding: 0px 0px 0px 0px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position: absolute;
+    border-radius: 20px;
+    flex-direction: row;
+    height: 352px;
+    width: 586px;
+    box-shadow:0px 0px 30px rgb(175, 176, 177);
+}
+.textfield-biodata{
+    margin: 0px 0px 10px 0px;
+    border: 0px;
+    border-radius: 5px;
+    width: 280px;
+    height: 25px;
+    background: #CDCFCF;
+}
+.biodata{
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+}
+.biodata p{
+    font-size: 13px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    width: 246px;
+}
+.info p{
+    font-size: 15px;
+    margin-bottom: 5px;
+
+}
+.profile-photo{
+    margin-bottom: 5px;
+}
+img{
+    border-radius: 1000px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.maps{
+    border: 0;
+    border-radius: 15px;
+    background: #0D2B29;
+    width: 214px;
+    height: 145px;
+}
+.edithapus-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.admin-btn{
+    background: #0D2B29;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    width: 96px;
+    margin: 10px 10px 0px 10px;
+    color: white;
+    font-weight: bold;
+}

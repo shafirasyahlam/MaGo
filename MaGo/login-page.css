@@ -1,0 +1,94 @@
+html{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+}
+p{
+    font-family: Roboto;
+}
+body,.login-div{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.login-div,.circle1-login,.circle1-login p,.footer-login,.circle2-login{
+    position: absolute;
+}
+.login-div{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow:0px 0px 30px rgb(175, 176, 177);
+    flex-direction: column;
+    height: 307px;
+    width: 507px;
+    z-index: 1;
+}
+.circle1-login{
+    border-radius: 500px;
+    width: 516px;
+    height: 516px;
+    left: -98px;
+    top: -260px;
+    background: #94C550;
+}
+.circle1-login p{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    bottom: 80px;
+    right: 100px;
+    
+}
+.textfield-login{
+    margin: 50px 0px -5px 0px;
+    width: 300px;
+    height: 30px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+.forgot-login{
+    display:flex;
+    font-size: 10px;
+    width: 300px;
+    height: 30px;
+    vertical-align: top;
+    align-items:end;
+}
+.login-btn{
+    margin: 40px 0px 20px 0px;
+    border: 0;
+    border-radius: 5px;
+    background: #94C550;
+    width: 300px;
+    height: 40px; 
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.footer-login{
+    bottom: 0px;
+    background: #94C550;
+    width: 100vw;
+    height: 50px; 
+    color: white;
+    text-align: center;
+}
+.tosignup{
+    margin-left: 5px;
+    color: black;
+    font-weight: bold;
+}
+.circle2-login{
+    border-radius: 500px;
+    width: 416px;
+    height: 416px;
+    right: -128px;
+    bottom: -190px;
+    background: #0D2B29;
+}
+
